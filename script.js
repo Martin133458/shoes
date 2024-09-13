@@ -1,4 +1,4 @@
-fetch('https:.//fakestoreapi.com/products')
+fetch('https://fakestoreapi.com/products')
     .then(response => response.json())
     .then(data =>  renderCards(data))
     .catch(error => console.error('ошибка', error))
